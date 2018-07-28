@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GK1</title>
+	<meta charset="UTF-8">
+<script type="text/javascript">
+	
+var questions = [
+
+{prompt:: what is the color of stop sign?\n\
+             a.blue \n b.green \n
+             c.red,
+            
+             answer:"c"};
+  {prompt:what is the color of sun sign?\n\
+             a.yellow\n b.green \n
+             c.red,
+             answer:"a"};
+   {prompt:what is the color of leaf?\n\
+             a.yellow\n b.green \n
+             c.red,
+             answer:"b"},]
+
+    var score=0;
+
+for(i=0;i<questions.length;i++){
+
+	var response= window.prompt(questions[i].prompt);
+
+	if(response==questions[i].answer){
+		score++;
+		alert("correct!!!");
+	}else{
+
+		alert("wrong");
+	}
+}
+</script>
+</head>
+<body>
+<h2>QUIZ</h2>
+<script type="text/javascript">
+	document.write(questions);
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
