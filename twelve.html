@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+	<html lang="eng">
+	<head>
+		<title>login</title>
+		<meta charset="UTF-8">
+		<script type="text/javascript">
+		function check(){
+     var username=document.myForm.username.value;
+     var password=document.myForm.password.value;
+     if((username=="")||(password=="")){
+      alert("YOU have to fill the entire fields!!!");
+      return false;
+
+     }else{
+     	alert("Bravo you have successfully submitted!");
+     	return true;
+     }
+
+
+		}	
+
+		</script>
+	</head>
+	<body>
+	<form  name="myForm">
+<strong>USERNAME:</strong> <input type="text" name="username" value="user">
+<strong>PASSSWORD:</strong> <input type="password" name="password" id="pwd">
+<input type="button" value="submit"  onclick= "return check()">
+		
+		
+
+	</form>
+	</body>
+	</html>
