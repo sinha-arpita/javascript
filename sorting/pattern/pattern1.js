@@ -7,4 +7,10 @@ for(i=0;i<=5;i++){
     }
     console.log(s);
 }
-    
+
+function f () {
+	return "ALok"
+}
+
+x = f()
+console.log(x)    

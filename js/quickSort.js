@@ -47,6 +47,8 @@ function quickSort(arr,start,end){
      }            
 }
 
+
+
 a = [7,2,1,6,8,5,3,4]
 quickSort(a, 0, 7);
 console.log(a)
